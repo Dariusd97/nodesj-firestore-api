@@ -12,4 +12,4 @@ app.use(bodyParser.json());
 app.use('/category', categoryRoutes);
 app.use('/book', bookRoutes);
 
-app.listen(port, () => { console.log('Server is running on port 8081')})
+app.listen(8081, () => { console.log('Server is running on port 8081')})

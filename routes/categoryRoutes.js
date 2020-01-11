@@ -32,8 +32,6 @@ router.put('/update', async(req, res, next) => {
             console.log(doc.id)
             console.log(doc.data())
         });
-        
-        
         res.status(200).json({Message: 'Category updated'})
     }catch(error){
         console.log(error);
